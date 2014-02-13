@@ -1,0 +1,6 @@
+select  'select httpuritype(''http://quote.yahoo.com/d/quotes.csv?s='||
+ticker||'.L''||''&''||'||'''f=d2snabb4c1c8e7f6jj1||'').getclob() from dual;' from CLEANCOMPANIES0702
+
+
+
+select httpuritype('http://quote.yahoo.com/d/quotes.csv?s=FENR.L'||'&'||'f=d2snabb4c1c8e7f6jj1||').getclob() from dual;
